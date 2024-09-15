@@ -97,3 +97,34 @@
     font-weight: 700;
     font-size: 1.1rem;
 }
+
+/* About tab */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.pic{
+    display: flex;
+}
+
+.pic img{
+    width: 300px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+}
+
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
