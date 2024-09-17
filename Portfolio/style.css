@@ -73,6 +73,18 @@
     right: 20%;
 }
 
+#shr{
+    font-weight: 600;
+    padding: 10px;
+    background-color: transparent;
+    font-size: large;
+    padding: 10px;
+    border: 2px solid black;
+    position: absolute;
+    top: 80%;
+    right: 22%;
+}
+
 .hdg{
     font-family: century;
     font-size: 3rem;
