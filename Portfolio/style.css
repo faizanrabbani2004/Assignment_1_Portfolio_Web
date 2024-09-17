@@ -73,6 +73,10 @@
     right: 20%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #shr{
     font-weight: 600;
     padding: 10px;
