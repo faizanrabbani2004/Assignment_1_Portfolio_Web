@@ -17,6 +17,8 @@
 .navbar ul{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 20px 0px;
 }
 
@@ -69,8 +71,8 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 30%;
-    right: 20%;
+    top: 45%;
+    right: 9%;
 }
 
 html{
@@ -85,11 +87,11 @@ html{
     padding: 10px;
     border: 2px solid black;
     position: absolute;
-    top: 80%;
-    right: 22%;
+    top: 85%;
+    right: 10%;
 }
 
-.hdg{
+.hdg1{
     font-family: century;
     font-size: 3rem;
     text-align: center;
@@ -122,32 +124,42 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding-left: 120px;
-    padding-bottom: 70px;
+    /* padding-left: 120px;
+    padding-bottom: 70px; */
     border: 2px solid white;
 }
 
 .pic{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .pic img{
     width: 300px;
+    border-radius: 8px;
 }
 
 #intro{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 20px;
+    padding: 50px;
 }
 
 #intro h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
 /* Projects */
+.hdg2{
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+}
 
 
 
