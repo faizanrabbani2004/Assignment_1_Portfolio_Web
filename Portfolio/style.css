@@ -95,7 +95,7 @@ html{
     font-family: century;
     font-size: 3rem;
     text-align: center;
-    margin: 40px 0px;
+    padding: 40px 40px;
 }
 
 .btn{
@@ -154,12 +154,61 @@ html{
 }
 
 /* Projects */
+#portfolio{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
 .hdg2{
     font-family: century;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin: 40px 0px;
+    padding: 20px;
 }
+
+
+.smallbox{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    transition:all 1s ease;
+}
+
+#sb1:hover{
+    background-image: url(Education.avif);
+    background-size: cover;
+    color: rgb(255,45,45);
+    opacity: 0.9;
+    box-shadow: 0px 0px 10px white;   
+}
+
+
+#sb2:hover{
+    background-image: url(Projects.jpeg);
+    background-size: cover;
+    color: rgb(255,45,45);
+    opacity: 0.9;
+    box-shadow: 0px 0px 10px white;   
+}
+#sb3:hover{
+    background-image: url(Shortcourses.jpg);
+    background-size: cover;
+    color: rgb(255,45,45);
+    opacity: 0.9;
+    box-shadow: 0px 0px 10px white;   
+}
+
 
 
 
@@ -175,7 +224,7 @@ html{
 
 .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     box-sizing: border-box;
 }
