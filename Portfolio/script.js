@@ -15,18 +15,15 @@ const portfolioData = {
     portfolio: [
         {
             title: "Education",
-            link: "education.html",
-            backgroundImage: "Education.avif"
+            link: "education.html"
         },
         {
             title: "Projects",
-            link: "project.html",
-            backgroundImage: "Projects.jpeg"
+            link: "project.html"
         },
         {
             title: "Short Courses",
-            link: "shortcourses.html",
-            backgroundImage: "Shortcourses.jpg"
+            link: "shortcourses.html"
         }
     ],
 
@@ -56,7 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const div = document.createElement('div');
         div.className = 'smallbox';
         div.id = `sb${index + 1}`;
-        div.style.backgroundImage = `url(${item.backgroundImage})`;
         div.innerHTML = `<h3 class="hdg2">${item.title}</h3>
                         <a href="${item.link}" style="font-size: larger; font-weight: 900; color: blue;">Learn More</a>`;
         portfolioContent.appendChild(div);
