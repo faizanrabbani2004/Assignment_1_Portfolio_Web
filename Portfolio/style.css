@@ -98,6 +98,12 @@ html{
     padding: 40px 40px;
 }
 
+h1{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+}
+
 .btn{
     padding:10px 35px;
     background-color: transparent;
