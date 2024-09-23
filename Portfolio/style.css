@@ -315,6 +315,7 @@ footer{
     border: 2px solid black;
 }
 
+/* Video tab */
 
 #videotab{
     display: flex;
@@ -329,4 +330,23 @@ footer{
 #video{
     height: 30rem;
     width: 50rem;
+}
+
+
+/* Socail Media Feed */
+
+#socialmediatab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
+#social{
+    height: 30rem;
+    width: 30rem;
 }
