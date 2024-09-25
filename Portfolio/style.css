@@ -164,6 +164,9 @@ h1{
     margin-bottom: 20px;
 }
 
+#intro p{
+    font-size: larger;
+}
 /* Projects */
 #portfolio{
     background-color: black;
@@ -358,29 +361,29 @@ footer{
 #social {
     width: 60%;
     height: 75%;
-    max-width: 600px;  /* Set a max width for larger screens */
+    max-width: 600px;
     max-height: 450px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     #video, #social {
-        width: 90%;  /* Wider view on smaller screens */
+        width: 90%;
         height: auto;
     }
 
     #videotab, #socialmediatab {
-        height: auto; /* Adjust height for smaller screens */
+        height: auto;
         padding: 10px;
     }
 }
 
 @media (max-width: 480px) {
     #video, #social {
-        width: 100%;  /* Full width for mobile screens */
+        width: 100%;
     }
 
     #videotab, #socialmediatab {
-        height: auto;  /* Adjust height for mobile devices */
+        height: auto;=
     }
 }
