@@ -63,6 +63,7 @@ h2 {
 .degree h3 {
     font-size: 1.5em;
     color: white;
+    text-decoration: 2px underline gray;
 }
 .degree h4 {
     font-size: 1.2em;
