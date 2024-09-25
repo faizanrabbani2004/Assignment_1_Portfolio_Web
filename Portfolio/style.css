@@ -235,7 +235,8 @@ h1{
 
 .row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: centers;
     flex-wrap: wrap;
     box-sizing: border-box;
 }
@@ -248,12 +249,13 @@ h1{
     border: 1px solid white;
     color: black;
     background-color: white;
-    margin: 10px;
+    padding: 20%;
+    margin-bottom: 40px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 40px;
     align-items: center;
     text-align: justify;
-    transition:all 1s linear;
+    transition:all 0.5s linear;
 }
 
 .box:hover{
@@ -321,8 +323,7 @@ footer{
 }
 
 /* Video tab */
-
-#videotab{
+#videotab {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,28 +331,56 @@ footer{
     background-color: black;
     color: white;
     border: 2px solid white;
+    height: 40rem;
+    padding: 20px;
 }
 
-#video{
-    height: 50%;
-    width: 50%;
+#video {
+    width: 80%;
+    height: 60%;
+    max-width: 800px;  /* Set a max width for larger screens */
+    max-height: 450px;
 }
 
-
-/* Socail Media Feed */
-
-#socialmediatab{
+/* Social Media Feed */
+#socialmediatab {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
+    height: 40rem;
     border: 2px solid white;
+    padding: 20px;
 }
 
+#social {
+    width: 60%;
+    height: 75%;
+    max-width: 600px;  /* Set a max width for larger screens */
+    max-height: 450px;
+}
 
-#social{
-    height: 30rem;
-    width: 30rem;
+/* Responsive Design */
+@media (max-width: 768px) {
+    #video, #social {
+        width: 90%;  /* Wider view on smaller screens */
+        height: auto;
+    }
+
+    #videotab, #socialmediatab {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #video, #social {
+        width: 100%;  /* Full width for mobile screens */
+    }
+
+    #videotab, #socialmediatab {
+        height: auto;  /* Adjust height for mobile devices */
+    }
 }
